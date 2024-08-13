@@ -19,4 +19,10 @@ public class Demanda {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
+    private String nome;
+    private int quantidadeGrupos;
+    private String destricaoProblema;
+    private String resultadoEsperados;
+    private String nivelImpacto;
+    private String ExpectativaPravo;
 }
