@@ -19,4 +19,7 @@ public class Demandante {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
+    private String nome;
+    private String email;
+    private String telefone;
 }
